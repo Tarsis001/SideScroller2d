@@ -1,10 +1,10 @@
 package com.epicgames.ue4;
 
-import com.YourCompany.SideScroller2d.OBBDownloaderService;
-import com.YourCompany.SideScroller2d.DownloaderActivity;
+import SideScroller.test.OBBDownloaderService;
+import SideScroller.test.DownloaderActivity;
 import android.app.Activity;
 import com.google.android.vending.expansion.downloader.Helpers;
-import com.YourCompany.SideScroller2d.OBBData;
+import SideScroller.test.OBBData;
 
 
 public class DownloadShim

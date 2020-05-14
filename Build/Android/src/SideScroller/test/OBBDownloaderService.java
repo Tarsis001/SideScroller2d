@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.YourCompany.SideScroller2d;
+package SideScroller.test;
 
 import com.google.android.vending.expansion.downloader.impl.DownloaderService;
 
@@ -61,6 +61,6 @@ public class OBBDownloaderService extends DownloaderService {
      */
     @Override
     public String getAlarmReceiverClassName() {
-        return com.YourCompany.SideScroller2d.AlarmReceiver.class.getName();
+        return SideScroller.test.AlarmReceiver.class.getName();
     }
 }
